@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:wght@300&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img
+{
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list
+{
+width: 100%;
+display: flex;
+align-items: center;
+}
+
+.nav-list li
+{
+list-style: none;
+padding: 20px;
+
+}
+
+.nav-list li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.nav-list li a :hover
+{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+.rightnav{
+    padding: 0 15px;
+    width: 40%;
+    text-align: right;
+}
+
+#search
+{
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 2px;
+}
+
+.background
+{
+    background: rgb(0, 0, 0, 0.7) url('../img/background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 100%;
+}
+.box-main2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 50%;
+    margin: auto;
+    height: 50%;
+    padding: 60px;
+}
+.firstsection
+{
+    height: 70vh;
+}
+.firstHalf
+{
+width: 75%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.secondHalf
+{
+width: 30%;
+}
+.secondHalf img
+{
+    width: 150%;
+    padding: 14px 0;
+    border: 4px soild black;
+    border-radius: 38px;
+    display: block;
+    margin: auto;
+}
+.text-big
+{
+font-size: 30px;
+}
+.text-small
+{
+font-size: 15px;
+}
+.btn
+{
+    padding: 7px 14px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 14px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm
+{
+   padding: 3px 10px;
+   vertical-align: middle;
+}
+.section {
+    height: 300px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section3 {
+    height: 275px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section2 {
+    height: 450px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section-left
+{
+flex-direction: row-reverse;
+}
+.paras
+{
+    padding: opx 90px;
+}
+.sectionSubTag
+{   padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.thumnail img
+{
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 2px soild black;
+    width: 5cm;
+    height: 2.5cm;
+    padding: 2px;
+}
+.contact
+{
+    background-color: rgb(175, 206, 206);
+    height: 80vh;
+}
+.text-center
+{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form
+{
+    max-width: 300px;
+    margin: auto;
+}
+.form-input
+{   margin: 10px 0;
+    width: 100%;
+    font-size: 10px;
+    padding: 5px 2px;
+    border: 5px soild black;
+    border-radius: 4px;
+}
+.btn-dark
+{
+    color: black;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.text-footer
+{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.table
+{
+    padding: 0px;
+    border: 2px solid gray;
+    width: 100%;
+}
